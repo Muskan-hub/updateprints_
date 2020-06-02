@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Spinnaker&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">
+<title>UpdatePrints.com</title>
+<meta charset="utf-8">
+<meta name="utf-8">
+</head>
+
+<body>
+       <header id="header" class="hoc clear">
+       	<nav id="navbar" class="nav">
+		       	<div class="logo-box"> 
+				        <img src="images/logo-new.png" class="logo">
+				</div>
+				        <hr class="line">
+			                 
+				                <ul>
+						             <li class="active"><a href="index.html"><strong>Home</strong></a></li>
+						             <li><a href="about.html"><strong>About Us</strong></a></li>
+						             <li><a href="labels.html"><strong>Labels</strong></a></li>
+						             <li><a href="contact.html"><strong>Contact Us</strong></a></li>
+					            </ul>
+			                </nav>
+				   </header>
+
+
+<div class="address">
+<p style="color: red; font-family: 'Spinnaker', sans-serif;"><strong>UPDATE PRINTS</strong><p>
+<p>NayaGaon, Badshahpur, GURGAON<br>
+122101 Hr. (India)<br>
+
+Tel : +91 9910703222, +91 9910709222<br> 
+Email: info@updateprints.net</p>
+
+<p style="color: red; font-family: 'Spinnaker', sans-serif;"><strong>UPDATE PRINTS</strong></p>
+<p>C-198, Naraina Industrial Area, Phase 1<br>
+New Delhi-110028. (India)<br>
+
+Tel: 011-25795817, 011-45538387<br>
+Email: info@updateprints.com</p>
+<button class="abutton" type="button">Write a Feedback</button>
+</div>
+
+
+
+<div class="form" >
+<form method="post" action="#">
+<h5> NAME </h5> 
+<input type="text"  placeholder="Enter Your Name">
+<h5> EMAIL </h5>
+<input type="text" placeholder="Enter Your Email">
+<h5> PHONE NUMBER</h5> 
+<input  type="text" placeholder="Enter Your Phone Number">
+<h5> COMMENT</h5>
+<textarea placeholder="Write Your Comments"></textarea>
+<br>
+<button class="sbutton" type="submit">Submit</button>
+</form>
+</div>
+
+<div class="imgmap" align="center">
+				    </div>  
+
+<footer>
+			<div class="logo-box"> 
+				        <img src="images/logo-new.png" class="logo">
+				</div>
+		   <h3>About Us</h3>
+		   <h3>Labels</h3>
+		   <h3>Contact us</h3>
+		    <h3>Blog</h3><br>
+
+		   <ion-icon name="logo-facebook"></ion-icon>
+		   <ion-icon name="logo-twitter"></ion-icon>
+		   <ion-icon name="logo-instagram"></ion-icon>
+		   <ion-icon name="logo-google"></ion-icon>
+           <p>© UPDATE PRINTS 2018 All Rights Reserved<p>
+        </footer>
+				
+
+</body>
+</html>
+
+<!-- Javas for form -->
+<script>
+	document.querySelector('.abutton').addEventListener('click',function(){
+              document.querySelector('.form').style.display='block';});
+</script>
+<!-- Javas for form -->
+
+<!-- javas for stickynav -->
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<!-- javas for stickynav -->
+
+
+
+
